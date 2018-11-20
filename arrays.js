@@ -37,7 +37,6 @@ function removeElementFromEndOfArray(array){
   return array
 }
 
-function
 function destructivelyAddElementToBeginningOfArray(array, element){
   array.unshift(element)
   return array
