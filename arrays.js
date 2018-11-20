@@ -26,6 +26,18 @@ function destructivelyRemoveElementFromEndOfArray(array){
   array.pop()
   return array
 }
+
+function removeElementFromBeginningOfArray(array){
+  array = array.slice(1)
+  return array
+}
+
+function removeElementFromEndOfArray(array){
+  array = array.slice(array.length-1, array.length)
+  return array
+}
+
+function 
 function destructivelyAddElementToBeginningOfArray(array, element){
   array.unshift(element)
   return array
